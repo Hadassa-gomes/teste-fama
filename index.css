@@ -1,0 +1,82 @@
+/* Estilo para o container principal que envolve todas as caixas */
+.box-container {
+    max-width: 600px; /* Largura máxima para centralizar e limitar a largura */
+    margin: 20px auto; /* Margem automática para centralizar */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #FFFFFF; /* Cor de fundo do container */
+
+}
+
+.content-wrapper {
+    display: flex; /* Usar layout flexível */
+    justify-content: space-between; /* Espaçar as caixas */
+    flex-direction: column;
+    gap: 20px; /* Espaço entre as caixas */
+}
+/* Estilo para a caixa de Forma de Pagamento */
+.payment-box {
+    border: 1px solid #000000; /* Borda da caixa */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #F5F5F5; /* Cor de fundo da caixa */
+    margin-bottom: 20px; /* Espaçamento abaixo da caixa */
+}
+
+/* Estilo para as opções de pagamento dentro da caixa de pagamento */
+.payment-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+/* Estilo para as imagens dentro das opções de pagamento */
+.payment-option img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Estilo para a seta nas opções de pagamento */
+.payment-option .arrow {
+    font-size: 18px;
+}
+
+/* Estilo para a caixa de Detalhes do Produto */
+.details-box {
+    border: 1px solid #000000; /* Borda da caixa */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #F5F5F5; /* Cor de fundo da caixa */
+}
+
+/* Estilo para o resumo do pedido dentro da caixa de detalhes do produto */
+.order-summary {
+    border-top: 1px solid #000000;
+    padding-top: 10px;
+}
+
+/* Estilo para cada item dentro do resumo do pedido */
+.order-summary .item,
+.order-summary .subtotal,
+.order-summary .shipping,
+.order-summary .total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* Estilo para o total */
+.order-summary .total {
+    font-weight: bold;
+}
+
+/* Estilo para os preços */
+.price {
+    font-weight: bold;
+}
+
